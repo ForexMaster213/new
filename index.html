@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Home Inspection Company</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Home Inspection Company</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="banner">
+			<h2>Welcome to Home Inspection Company</h2>
+			<p>Providing comprehensive and reliable home inspection services</p>
+			<a href="#">Learn More</a>
+		</section>
+		
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Home Inspection Company is a home inspection service that provides comprehensive and reliable inspections to ensure that your home is safe and free of any issues. Our team of experienced and certified inspectors will thoroughly inspect your home and provide you with a detailed report of their findings.</p>
+		</section>
+		
+		<section id="services">
+			<h2>Our Services</h2>
+			<ul>
+				<li>Pre-Purchase Inspections</li>
+				<li>New Construction Inspections</li>
+				<li>Home Maintenance Inspections</li>
+				<li>Radon Testing</li>
+				<li>Mold Testing</li>
+			</ul>
+			<a href="#">Learn More</a>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Copyright © Home Inspection Company</p>
+	</footer>
+</body>
+</html>
+```
+
+CSS Code:
+
+```
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#banner {
+	background-image: url('banner.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#banner h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#banner p {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#banner a {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#about {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#about h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#about p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#services {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#services h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#services ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#services li {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+#services a {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#contact {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#contact h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#contact form {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact label {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+#contact input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
